@@ -1,15 +1,17 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app">
+    <img alt="Vue logo" src="./assets/logo.png">
+    <DatabaseManager />
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import DatabaseManager from './components/DatabaseManager.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    DatabaseManager
   }
 }
 </script>
